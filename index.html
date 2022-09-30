@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8" />
+    <title>Simon</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Press+Start+2P"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body>
+    <h1 id="level-title">SIMON GAME</h1>
+    <h2 id="level-subtitle">Press A Key to Start</h2>
+    <div class="container">
+      <div class="row">
+        <div type="button" id="green" class="btn green"></div>
+        <div type="button" id="red" class="btn red"></div>
+      </div>
+
+      <div class="row">
+        <div type="button" id="yellow" class="btn yellow"></div>
+        <div type="button" id="blue" class="btn blue"></div>
+      </div>
+    </div>
+
+    <hr>
+    <div class="footer">
+      <h3 id="level-h3title">How to Play?</h3>
+      <p>
+        There are four boxes with each of them has different color. When you press a key to start the game,
+        one of the box will start to show a blinky flash animation. When that happens, you will have to click the corresponding box.
+        As you level up, you will have to follow the pattern of the flash animation that the boxes show, once you click the wrong box the game will over.
+      </p>
+    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="game.js"></script>
+  </body>
+
+</html>
